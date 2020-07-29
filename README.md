@@ -3,30 +3,20 @@
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
-Things you may want to cover:
+# Descriptions:
 
-- Ruby version
+This is a BOT which push notifications on telegram when having change a value of the coins from the site was added by admin
 
-- System dependencies
+# Features:
 
-- Configuration
-
-- Database creation
-
-- Database initialization
-
-- How to run the test suite
-
-- Services (job queues, cache servers, search engines, etc.)
-
-- Deployment instructions
-
-- ...
+- Connecting to telegram with `@botfather`
+- Integrating `Link` for get data
+- Create Cronjob that push notifications if have change a value of the coins
 
 # Example telegram bot app
 
 This app uses [telegram-bot](https://github.com/telegram-bot-rb/telegram-bot) gem.
-Want to see the [bot code](https://github.com/telegram-bot-rb/telegram_bot_app/blob/master/app/controllers/telegram_webhooks_controller.rb)
+Want to see the [bot code](https://github.com/ttduongtran/telegram_bot_notifers_ror/blob/master/app/controllers/telegram_webhooks_controller.rb)
 first?
 
 Explore separate commits to check evolution of code.
@@ -104,8 +94,12 @@ bin/rspec
 
 - Uncomment `async: true` in `secrets.yml`.
 - Run and check the logs out.
-- More info about [async mode](https://github.com/telegram-bot-rb/telegram-bot#async-mode).
+- More info about [async mode](https://github.com/ttduongtran/telegram_bot_notifers_ror#async-mode).
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/telegram-bot-rb/telegram_bot_app.
+Bug reports and pull requests are welcome on GitHub at https://github.com/ttduongtran/telegram_bot_notifers_ror.
+
+## Reference
+
+https://github.com/telegram-bot-rb/telegram_bot_app.
